@@ -8,7 +8,7 @@ if (nombre == null || nombre.length == 0) {
 	return false;
 }
 
-apellido = document.getElementById("apellido").value;
+apellido = document.getElementById("lastname").value;
 if (apellido == null || apellido.length == 0) {
 	alert("Ingresa apellido");
 	return false;
@@ -41,7 +41,7 @@ if (!(/[A-Z]/.test(apellidoMayuscula))) {
 }
 
 //Email valido
-email document.getElementById("input-email").value;
+email = document.getElementById("input-email").value;
 if (!(/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(email))) {
 alert("Ingresa email valido");
 return false;
