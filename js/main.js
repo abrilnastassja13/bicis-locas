@@ -47,8 +47,19 @@ alert("Ingresa email valido");
 return false;
 }
 
+//Contraseña valida
+password = document.getElementById("input-password").value;
+if (password.length<6 || password=123456 || password="password") {
+	alert("Ingresa contraseña valida");
+	return false;
+}
 
-
+//Seleccionar bicicleta
+bicicleta = document.querySelector("select").value;
+if (bicicleta = 0) {
+	alert("Selecciona una bicicleta");
+	return false;
+}
 
 }
 
